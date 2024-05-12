@@ -1,0 +1,15 @@
+Python libraries used used for part-1:
+import os
+import csv
+import sys
+import numpy as np
+import cv2          
+import time
+from torchvision import transforms
+import torch
+import torch.optim as optim
+from torchvision.models.detection import fasterrcnn_resnet50_fpn, FasterRCNN_ResNet50_FPN_Weights
+from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
+from torch.utils.data import Dataset
+import matplotlib.pyplot as plt
+import matplotlib.patches as patches

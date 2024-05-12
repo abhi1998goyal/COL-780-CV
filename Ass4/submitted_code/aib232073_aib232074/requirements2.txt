@@ -1,0 +1,21 @@
+Python libraries used used for part-2:
+
+import os
+import csv
+import sys
+import numpy as np
+import cv2          
+import time
+from PIL import Image
+import torch
+import torch.optim as optim
+from torch.utils.data import Dataset
+from torch.utils.data import DataLoader
+import torchvision
+from transformers import DetrImageProcessor, DetrForObjectDetection, DetrConfig
+from transformers import DeformableDetrForObjectDetection, AutoImageProcessor
+import torchvision.transforms as T
+from torchvision import transforms
+import matplotlib.pyplot as plt
+import matplotlib.patches as patches
+
